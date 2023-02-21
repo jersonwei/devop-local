@@ -1,0 +1,38 @@
+{
+  "name": "local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+{
+  "name": "werun-locale",
+  "version": "1.0.0",
+  "description": "werun国际化",
+  "main": "main/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.1.240:8082/webuild/shenzhen/development-center/front/werun-locale"
+  },
+  "keywords": [],
+  "author": "zhou.yun@webuilding.com",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0"
+  }
+}
